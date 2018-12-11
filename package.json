@@ -1,6 +1,6 @@
 {
   "name": "mongo-queuer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "mongo-queuer for node",
   "main": "index.js",
   "author": "SWINGDEV - Tomek Kopczuk",

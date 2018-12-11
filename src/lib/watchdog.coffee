@@ -58,8 +58,7 @@ class Watchdog extends EventEmitter
       @notifyError err
 
   notifyHealthStatusChange: (status) ->
-    if @healthStatus isnt status
-      @healthStatus = status
-      @emit status
+    @healthStatus = status
+    @emit status
 
 module.exports = Watchdog
